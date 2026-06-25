@@ -1,0 +1,73 @@
+r(t)
+t
+DF(t)
+t
+t
+N*DF(t)
+DCFt2,t1
+t1
+t2
+t1
+t2
+DCFt2,t1= t2-t1360 
+DFt= 1(1+rt*DCF(t,0))
+F(t1,t2)
+t1
+t2
+t1
+t2
+ft1,t2= DF(t1)DF(t2)-1DCFt2,t1
+N*(1+rcash*DCF(T,0))
+rcash
+T
+rfixed
+t1,t2,t3…tn
+ti
+N*rfixed*(ti-ti-1)
+t0=0.
+rflaot
+t1,t2,t3…tn
+tj
+N*rfloat*(tj-tj-1)
+t0=0.
+rflaot
+tj
+Ftj-1,tj
+rfixed
+Par Swap Rate= jFtj-1,tj*DF(tj)*DCF(tj,tj-1)iDF(ti)*DCF(ti,ti-1)
+t
+ti-1,DFi-1
+ti,DFi
+Ln(DF)=Ln(DFi-1)+ t-ti-1ti-ti-1*(Ln(DFi)-Ln(DFi-1))
+Qi(t)
+ti-1,Ln(DFi-1)
+ti,Ln(DFi)
+ti+1,Ln(DFi+1)
+t
+ti,Ln(DFi)
+ti+1,Ln(DFi+1)
+t
+LnDF= ti+1-tti+1-tiQit+t-titi+1-tiQi+1(t)
+(mi,ci)
+(mi,pi)
+ci
+pi
+mi
+∂PresentValue∂ci
+∂PresentValue∂ci
+∂PresentValue∂pi
+∂PresentValue∂pi
+t
+rfixed
+DF(t)
+DF(t)
+DF(t)
+DF(t)
+PV 
+PV
+PV
+PV
+∂PresentValue∂ci
+∂PresentValue∂ci
+∂PresentValue∂pi
+∂PresentValue∂pi

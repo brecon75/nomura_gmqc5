@@ -1,0 +1,4 @@
+split,accuracy,precision,recall,log_loss
+train,0.5605,0.6183,0.2519,0.6832
+validation,0.5581,0.4545,0.2506,0.6844
+test,0.558,0.4485,0.2484,0.6844
