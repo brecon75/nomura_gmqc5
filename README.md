@@ -1,4 +1,4 @@
-# Nomura Global Markets (GM) Quantitative Assignment
+# Nomura Global Markets Quant Challenge 2026
 
 This repository contains the solutions for the Nomura Global Markets Quant Challenge 2026, divided into three main sections: Q1, Q2, and Q3. 
 
