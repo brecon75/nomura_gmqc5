@@ -1,16 +1,12 @@
 # Nomura Global Markets (GM) Quantitative Assignment
 
-This repository contains the solutions for the Nomura Global Markets quantitative assessment, divided into three main sections: Q1, Q2, and Q3. 
+This repository contains the solutions for the Nomura Global Markets Quant Challenge 2026, divided into three main sections: Q1, Q2, and Q3. 
 
 ## Repository Structure
 
-### 📁 `q1/` - Theoretical and Mathematical Concepts
-Contains solutions and mathematical derivations for the theoretical questions.
-- `q1.csv`: Multiple-choice answers.
-- `math_equations.txt`: Mathematical derivations and equations used for the theoretical questions (discount factors, forward rates, par swap rates, sensitivities, etc.).
-- `Question1.docx`: Problem statements and detailed answers.
+###  `q1/` - MCQ Round
 
-### 📁 `q2/` - C++ Pricing Engine
+###  `q2/` - C++ Pricing Engine
 A C++ pricing engine for Interest Rate Swaps. It supports curve building, interpolation, present value (PV) calculation, and risk (sensitivity) analysis.
 - **Key Features:**
   - Interest Rate Swap (IRS) pricing.
@@ -31,7 +27,7 @@ g++ -O3 -std=c++17 pricing_engine.cpp -o pricing_engine
 ```
 *Note: Make sure `Input.csv` is in the same directory. Results will be generated in `Output.csv`.*
 
-### 📁 `q3/` - Quantitative Analysis & Market Making Strategy
+###  `q3/` - Quantitative Analysis & Market Making Strategy
 A set of Python scripts implementing quantitative trading analysis, adversity prediction, and a quoting strategy backtest based on trade data.
 - **`t1.py`**: Simulates the adversity profile of clients at multiple time horizons (tau) based on mid-price changes.
 - **`t2.py`**: Computes the expected PnL per trade, classifies clients as 'profitable' or 'costly', and calculates the minimum half-spread (delta) required for expected aggregate PnL to be non-negative.
